@@ -19,4 +19,9 @@ class Owner
   def self.reset_all
     @@owners.clear
   end
+  
+  def species
+    @species = "human"
+  end
+  
 end
