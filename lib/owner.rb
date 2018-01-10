@@ -69,4 +69,7 @@ class Owner
       @pets[pets].clear
     end
   end
+  
+  def list_pets
+    "I have #{"
 end
